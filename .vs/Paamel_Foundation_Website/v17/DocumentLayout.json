@@ -1,0 +1,621 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Paamel Foundation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|e:\\paamel foundation\\admin_layout\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\albumcover.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\albumcover.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\createlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\createlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\coverlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\coverlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\updatecoverimage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\updatecoverimage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|e:\\paamel foundation\\admin_layout\\updatecoverimage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\updatecoverimage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\album.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\album.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\albumcover.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\albumcover.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\album.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\album.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\assets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:assets\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\gallery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:gallery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\award_ceremony_2024_gallery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:award_ceremony_2024_gallery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\albumimage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:albumimage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\dashboard\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:dashboard\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\banner_upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\banner_upload.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\banner_upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\banner_upload.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\gallerycover.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:gallerycover.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\createlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\createlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\admin.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\app_code\\sqlconn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:app_code\\sqlconn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\dashboard\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:dashboard\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\dashboard\\assets\\js\\main_2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:dashboard\\assets\\js\\main_2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\classic_football_academy_gallery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:classic_football_academy_gallery.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\gallerycover.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:gallerycover.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\admin_layout\\coverlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:admin_layout\\coverlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|E:\\Paamel Foundation\\public.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153878B7-E5F9-432D-8448-8D830E5782B7}|Paamel_Foundation_Website.csproj|solutionrelative:public.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Album.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\Album.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\Album.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\Album.aspx",
+              "RelativeToolTip": "Admin_Layout\\Album.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-17T10:45:54.06Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\WebForm1.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\WebForm1.aspx",
+              "RelativeToolTip": "Admin_Layout\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-17T07:43:42.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlbumCover.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\AlbumCover.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\AlbumCover.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\AlbumCover.aspx",
+              "RelativeToolTip": "Admin_Layout\\AlbumCover.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-17T07:25:19.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Gallery.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Gallery.aspx",
+              "RelativeDocumentMoniker": "Gallery.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Gallery.aspx",
+              "RelativeToolTip": "Gallery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-14T05:56:42.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateCoverImage.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\UpdateCoverImage.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\UpdateCoverImage.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\UpdateCoverImage.aspx",
+              "RelativeToolTip": "Admin_Layout\\UpdateCoverImage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-30T10:33:06.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateCoverImage.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\UpdateCoverImage.aspx.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\UpdateCoverImage.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\UpdateCoverImage.aspx.cs",
+              "RelativeToolTip": "Admin_Layout\\UpdateCoverImage.aspx.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwEsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T07:55:00.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Album.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\Album.aspx.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\Album.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\Album.aspx.cs",
+              "RelativeToolTip": "Admin_Layout\\Album.aspx.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAQwFAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T07:36:03.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateLogin.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\CreateLogin.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\CreateLogin.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\CreateLogin.aspx",
+              "RelativeToolTip": "Admin_Layout\\CreateLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-01T18:18:20.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoverList.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\CoverList.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\CoverList.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\CoverList.aspx",
+              "RelativeToolTip": "Admin_Layout\\CoverList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-28T05:38:27.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlbumCover.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\AlbumCover.aspx.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\AlbumCover.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\AlbumCover.aspx.cs",
+              "RelativeToolTip": "Admin_Layout\\AlbumCover.aspx.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T05:41:48.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "styles.css",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Assets\\css\\styles.css",
+              "RelativeDocumentMoniker": "Assets\\css\\styles.css",
+              "ToolTip": "E:\\Paamel Foundation\\Assets\\css\\styles.css",
+              "RelativeToolTip": "Assets\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T06:08:43.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Index.aspx.cs",
+              "RelativeDocumentMoniker": "Index.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Index.aspx.cs",
+              "RelativeToolTip": "Index.aspx.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:08:44.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Index.aspx",
+              "RelativeDocumentMoniker": "Index.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Index.aspx",
+              "RelativeToolTip": "Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-14T05:56:28.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Award_Ceremony_2024_Gallery.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Award_Ceremony_2024_Gallery.aspx",
+              "RelativeDocumentMoniker": "Award_Ceremony_2024_Gallery.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Award_Ceremony_2024_Gallery.aspx",
+              "RelativeToolTip": "Award_Ceremony_2024_Gallery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-09T09:44:50.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AlbumImage.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\AlbumImage.aspx",
+              "RelativeDocumentMoniker": "AlbumImage.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\AlbumImage.aspx",
+              "RelativeToolTip": "AlbumImage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-05T10:05:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Dashboard\\Assets\\css\\style.css",
+              "RelativeDocumentMoniker": "Dashboard\\Assets\\css\\style.css",
+              "ToolTip": "E:\\Paamel Foundation\\Dashboard\\Assets\\css\\style.css",
+              "RelativeToolTip": "Dashboard\\Assets\\css\\style.css",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAAACYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T08:14:32.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Banner_Upload.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\Banner_Upload.aspx.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\Banner_Upload.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\Banner_Upload.aspx.cs",
+              "RelativeToolTip": "Admin_Layout\\Banner_Upload.aspx.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T10:29:36.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Banner_Upload.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\Banner_Upload.aspx",
+              "RelativeDocumentMoniker": "Admin_Layout\\Banner_Upload.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\Banner_Upload.aspx",
+              "RelativeToolTip": "Admin_Layout\\Banner_Upload.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-02T08:46:52.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GalleryCover.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\GalleryCover.aspx",
+              "RelativeDocumentMoniker": "GalleryCover.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\GalleryCover.aspx",
+              "RelativeToolTip": "GalleryCover.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-29T06:57:18.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\Admin.Master",
+              "RelativeDocumentMoniker": "Admin_Layout\\Admin.Master",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\Admin.Master",
+              "RelativeToolTip": "Admin_Layout\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-28T10:24:43.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "main.js",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Assets\\js\\main.js",
+              "RelativeDocumentMoniker": "Assets\\js\\main.js",
+              "ToolTip": "E:\\Paamel Foundation\\Assets\\js\\main.js",
+              "RelativeToolTip": "Assets\\js\\main.js",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-02T06:09:24.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "E:\\Paamel Foundation\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-14T06:16:15.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateLogin.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\CreateLogin.aspx.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\CreateLogin.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\CreateLogin.aspx.cs",
+              "RelativeToolTip": "Admin_Layout\\CreateLogin.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:22:35.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Login.aspx",
+              "RelativeDocumentMoniker": "Login.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Login.aspx",
+              "RelativeToolTip": "Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-31T07:06:05.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Admin.Master.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\Admin.Master.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\Admin.Master.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\Admin.Master.cs",
+              "RelativeToolTip": "Admin_Layout\\Admin.Master.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T07:25:23.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Login.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Login.aspx.cs",
+              "RelativeToolTip": "Login.aspx.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T06:03:38.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SqlConn.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\App_Code\\SqlConn.cs",
+              "RelativeDocumentMoniker": "App_Code\\SqlConn.cs",
+              "ToolTip": "E:\\Paamel Foundation\\App_Code\\SqlConn.cs",
+              "RelativeToolTip": "App_Code\\SqlConn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T06:01:28.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Public.Master",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Public.Master",
+              "RelativeDocumentMoniker": "Public.Master",
+              "ToolTip": "E:\\Paamel Foundation\\Public.Master",
+              "RelativeToolTip": "Public.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-31T06:35:18.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "main.js",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Dashboard\\Assets\\js\\main.js",
+              "RelativeDocumentMoniker": "Dashboard\\Assets\\js\\main.js",
+              "ToolTip": "E:\\Paamel Foundation\\Dashboard\\Assets\\js\\main.js",
+              "RelativeToolTip": "Dashboard\\Assets\\js\\main.js",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-02T06:20:31.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "main_2.js",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Dashboard\\Assets\\js\\main_2.js",
+              "RelativeDocumentMoniker": "Dashboard\\Assets\\js\\main_2.js",
+              "ToolTip": "E:\\Paamel Foundation\\Dashboard\\Assets\\js\\main_2.js",
+              "RelativeToolTip": "Dashboard\\Assets\\js\\main_2.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-02T06:20:42.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Classic_Football_Academy_Gallery.aspx",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Classic_Football_Academy_Gallery.aspx",
+              "RelativeDocumentMoniker": "Classic_Football_Academy_Gallery.aspx",
+              "ToolTip": "E:\\Paamel Foundation\\Classic_Football_Academy_Gallery.aspx",
+              "RelativeToolTip": "Classic_Football_Academy_Gallery.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-14T06:07:04.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GalleryCover.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\GalleryCover.aspx.cs",
+              "RelativeDocumentMoniker": "GalleryCover.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\GalleryCover.aspx.cs",
+              "RelativeToolTip": "GalleryCover.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T10:09:50.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CoverList.aspx.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Admin_Layout\\CoverList.aspx.cs",
+              "RelativeDocumentMoniker": "Admin_Layout\\CoverList.aspx.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Admin_Layout\\CoverList.aspx.cs",
+              "RelativeToolTip": "Admin_Layout\\CoverList.aspx.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T07:51:13.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Public.Master.cs",
+              "DocumentMoniker": "E:\\Paamel Foundation\\Public.Master.cs",
+              "RelativeDocumentMoniker": "Public.Master.cs",
+              "ToolTip": "E:\\Paamel Foundation\\Public.Master.cs",
+              "RelativeToolTip": "Public.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:01:26.317Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

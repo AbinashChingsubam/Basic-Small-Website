@@ -1,0 +1,655 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{153878B7-E5F9-432D-8448-8D830E5782B7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paamel_Foundation_Website</RootNamespace>
+    <AssemblyName>Paamel_Foundation_Website</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44304</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin_Layout\Album.aspx" />
+    <Content Include="Admin_Layout\AlbumCover.aspx" />
+    <Content Include="Admin_Layout\Banner_Upload.aspx" />
+    <Content Include="Admin_Layout\CoverList.aspx" />
+    <Content Include="Admin_Layout\CreateLogin.aspx" />
+    <Content Include="Admin_Layout\Home.aspx" />
+    <Content Include="Admin_Layout\UpdateCoverImage.aspx" />
+    <Content Include="Admin_Layout\WebForm1.aspx" />
+    <Content Include="AlbumImage.aspx" />
+    <Content Include="Assets\css\styles.css" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%281%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%282%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%283%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%284%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%285%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%286%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%287%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%288%29.jpg" />
+    <Content Include="Assets\img\Award_Ceremony_2024\Image%289%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%281%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2810%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2811%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2812%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2813%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2814%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2815%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2816%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2817%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2818%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2819%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%282%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%2820%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%283%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%284%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%285%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%286%29.JPG" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%287%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%288%29.jpg" />
+    <Content Include="Assets\img\Classic_Football_Academy\Image%289%29.jpg" />
+    <Content Include="Assets\img\favicon.ico" />
+    <Content Include="Assets\img\Financial_Assistance_2024\Image%281%29.jpeg" />
+    <Content Include="Assets\img\Financial_Assistance_2024\Image%282%29.jpeg" />
+    <Content Include="Assets\img\Financial_Assistance_2024\Image%283%29.jpeg" />
+    <Content Include="Assets\img\Financial_Assistance_2024\Image%284%29.jpeg" />
+    <Content Include="Assets\img\hero.jpg" />
+    <Content Include="Assets\img\hero0.jpg" />
+    <Content Include="Assets\img\hero1.jpg" />
+    <Content Include="Assets\img\hero2.jpg" />
+    <Content Include="Assets\img\hero3.jpg" />
+    <Content Include="Assets\img\hero4.jpg" />
+    <Content Include="Assets\img\management\Brenda.png" />
+    <Content Include="Assets\img\management\MD.png" />
+    <Content Include="Assets\img\management\Momocha.png" />
+    <Content Include="Assets\img\management\naoba.png" />
+    <Content Include="Assets\img\management\SanjenbamRitaDevi.png" />
+    <Content Include="Assets\img\Paamel_Foundation_Logo.jpg" />
+    <Content Include="Assets\img\Paamel_Foundation_Logo_Small.jpg" />
+    <Content Include="Assets\img\Paamel_Foundation_Logo_Small_Bgremove.png" />
+    <Content Include="Assets\img\Roofing_Materials_2024\Image%281%29.jpg" />
+    <Content Include="Assets\img\Roofing_Materials_2024\Image%282%29.jpg" />
+    <Content Include="Assets\img\Roofing_Materials_2024\Image%283%29.jpg" />
+    <Content Include="Assets\img\Roofing_Materials_2024\Image%284%29.jpg" />
+    <Content Include="Assets\img\Roofing_Materials_2024\Image%285%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%281%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2810%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2811%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2812%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2813%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2814%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2815%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2816%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2817%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2818%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2819%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%282%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2820%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2821%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2822%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2823%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2824%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2825%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%2826%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%283%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%284%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%285%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%286%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%287%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%288%29.jpg" />
+    <Content Include="Assets\img\Tree_Plantation_2024\Image%289%29.jpg" />
+    <Content Include="Assets\js\main.js" />
+    <Content Include="Award_Ceremony_2024_Gallery.aspx" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Paamel_Foundation_Website.dll" />
+    <Content Include="bin\Paamel_Foundation_Website.pdb" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\Microsoft.Win32.Primitives.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Console.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.Globalization.Calendars.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.ZipFile.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Net.Http.dll" />
+    <Content Include="bin\roslyn\System.Net.Sockets.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\roslyn\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="Classic_Football_Academy_Gallery.aspx" />
+    <Content Include="Dashboard\Admin\Dashboard.aspx" />
+    <Content Include="Dashboard\Assets\css\style.css" />
+    <Content Include="Dashboard\Assets\img\dashboard_banner_2.jpg" />
+    <Content Include="Dashboard\Assets\js\main.js" />
+    <Content Include="Dashboard\Assets\js\main_2.js" />
+    <Content Include="Dashboard\Assets\vendor\animate.css\animate.compat.css" />
+    <Content Include="Dashboard\Assets\vendor\animate.css\animate.css" />
+    <Content Include="Dashboard\Assets\vendor\animate.css\animate.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap-icons\bootstrap-icons.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\css\animations.css" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\css\boxicons.css" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\css\transformations.css" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\all.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\all.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\brands.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\brands.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\fontawesome.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\fontawesome.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\regular.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\regular.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\solid.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\solid.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\svg-with-js.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\svg-with-js.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\v4-font-face.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\v4-font-face.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\v4-shims.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\v4-shims.min.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\v5-font-face.css" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\css\v5-font-face.min.css" />
+    <Content Include="Dashboard\Assets\vendor\glightbox\css\glightbox.css" />
+    <Content Include="Dashboard\Assets\vendor\glightbox\css\glightbox.min.css" />
+    <Content Include="Dashboard\Assets\vendor\glightbox\css\plyr.css" />
+    <Content Include="Dashboard\Assets\vendor\glightbox\css\plyr.min.css" />
+    <Content Include="Dashboard\Assets\vendor\glightbox\js\glightbox.js" />
+    <Content Include="Dashboard\Assets\vendor\glightbox\js\glightbox.min.js" />
+    <Content Include="Dashboard\Assets\vendor\jQuery\jQuery.js" />
+    <Content Include="Dashboard\Assets\vendor\php-email-form\validate.js" />
+    <Content Include="Dashboard\Assets\vendor\purecounter\purecounter_vanilla.js" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.css" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.svg" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.symbol.svg" />
+    <Content Include="Dashboard\Assets\vendor\swiper\swiper-bundle.min.css" />
+    <Content Include="Dashboard\Assets\vendor\swiper\swiper-bundle.min.js" />
+    <Content Include="Financial_Assistance_2024_Gallery.aspx" />
+    <Content Include="Gallery.aspx" />
+    <Content Include="GalleryCover.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csi.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.AppContext.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.Collections.Immutable.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.Diagnostics.StackTrace.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.IO.FileSystem.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\System.Reflection.Metadata.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\VBCSCompiler.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.Win32.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.AppContext.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Collections.Immutable.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Console.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Diagnostics.StackTrace.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Globalization.Calendars.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.Compression.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.Compression.ZipFile.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.FileSystem.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Net.Http.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Net.Sockets.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Reflection.Metadata.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Text.Encoding.CodePages.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.ValueTuple.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.ReaderWriter.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.XmlDocument.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.XPath.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\System.Xml.XPath.XDocument.dll" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe" />
+    <Content Include="Roofing_Materials_2024_Gallery.aspx" />
+    <Content Include="Tree_Plantation_2024_Gallery.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Layout\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\Album.aspx.cs">
+      <DependentUpon>Album.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\Album.aspx.designer.cs">
+      <DependentUpon>Album.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\AlbumCover.aspx.cs">
+      <DependentUpon>AlbumCover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\AlbumCover.aspx.designer.cs">
+      <DependentUpon>AlbumCover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\Banner_Upload.aspx.cs">
+      <DependentUpon>Banner_Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\Banner_Upload.aspx.designer.cs">
+      <DependentUpon>Banner_Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\CoverList.aspx.cs">
+      <DependentUpon>CoverList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\CoverList.aspx.designer.cs">
+      <DependentUpon>CoverList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\CreateLogin.aspx.cs">
+      <DependentUpon>CreateLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\CreateLogin.aspx.designer.cs">
+      <DependentUpon>CreateLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\UpdateCoverImage.aspx.cs">
+      <DependentUpon>UpdateCoverImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\UpdateCoverImage.aspx.designer.cs">
+      <DependentUpon>UpdateCoverImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Layout\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Layout\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlbumImage.aspx.cs">
+      <DependentUpon>AlbumImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlbumImage.aspx.designer.cs">
+      <DependentUpon>AlbumImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\SqlConn.cs" />
+    <Compile Include="Award_Ceremony_2024_Gallery.aspx.cs">
+      <DependentUpon>Award_Ceremony_2024_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Award_Ceremony_2024_Gallery.aspx.designer.cs">
+      <DependentUpon>Award_Ceremony_2024_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classic_Football_Academy_Gallery.aspx.cs">
+      <DependentUpon>Classic_Football_Academy_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Classic_Football_Academy_Gallery.aspx.designer.cs">
+      <DependentUpon>Classic_Football_Academy_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard\Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard\Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Financial_Assistance_2024_Gallery.aspx.cs">
+      <DependentUpon>Financial_Assistance_2024_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Financial_Assistance_2024_Gallery.aspx.designer.cs">
+      <DependentUpon>Financial_Assistance_2024_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GalleryCover.aspx.cs">
+      <DependentUpon>GalleryCover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GalleryCover.aspx.designer.cs">
+      <DependentUpon>GalleryCover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public.Master.cs">
+      <DependentUpon>Public.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Public.Master.designer.cs">
+      <DependentUpon>Public.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Roofing_Materials_2024_Gallery.aspx.cs">
+      <DependentUpon>Roofing_Materials_2024_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Roofing_Materials_2024_Gallery.aspx.designer.cs">
+      <DependentUpon>Roofing_Materials_2024_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tree_Plantation_2024_Gallery.aspx.cs">
+      <DependentUpon>Tree_Plantation_2024_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tree_Plantation_2024_Gallery.aspx.designer.cs">
+      <DependentUpon>Tree_Plantation_2024_Gallery.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\vnd.openxmlformats-officedocument.wordprocessingml.document&amp;rendition=1.docx" />
+    <Content Include="bin\Paamel_Foundation_Website.dll.config" />
+    <Content Include="bin\roslyn.zip" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.exe.config" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="Dashboard\Admin\Admin.Master" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap-icons\bootstrap-icons.json" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap-icons\bootstrap-icons.scss" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Dashboard\Assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Include="Dashboard\Assets\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-brands-400.ttf" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-brands-400.woff2" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-regular-400.ttf" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-regular-400.woff2" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-solid-900.ttf" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-v4compatibility.ttf" />
+    <Content Include="Dashboard\Assets\vendor\fontawesome-free\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="Dashboard\Assets\vendor\purecounter\purecounter_vanilla.js.map" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.eot" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.glyph.json" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.less" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.ttf" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.woff" />
+    <Content Include="Dashboard\Assets\vendor\remixicon\remixicon.woff2" />
+    <Content Include="Dashboard\Assets\vendor\swiper\swiper-bundle.min.js.map" />
+    <Content Include="Admin_Layout\Admin.Master" />
+    <None Include="packages.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\.signature.p7s" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\app.config.install.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\app.config.uninstall.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\web.config.install.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net45\web.config.uninstall.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\app.config.install.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\app.config.uninstall.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\web.config.install.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\content\net46\web.config.uninstall.xdt" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\net45\install.ps1" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\net45\uninstall.ps1" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.rsp" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csi.rsp" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.CSharp.Core.targets" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.exe.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\vbc.rsp" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\VBCSCompiler.exe.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.exe.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csc.rsp" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.exe.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\csi.rsp" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.CSharp.Core.targets" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.Managed.Core.targets" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe.config" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.rsp" />
+    <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe.config" />
+    <Content Include="Public.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Image\AlbumCover\" />
+    <Folder Include="Image\Album\" />
+    <Folder Include="Models\" />
+    <Folder Include="Upload\Banner\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54574</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44304/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

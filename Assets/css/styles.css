@@ -1,0 +1,439 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+/* Color Variables */
+:root {
+    --primary-black: #333;
+    --primary-white: #fff;
+    --primary-gray: #eee;
+    --secondary-gray: #f4f4f4;
+    --primary-orange: #ef7003;
+    --secondary-orange: #bd5700;
+    --primary-blue: #057eda;
+    --secondary-blue: #035a9d;
+    --primary-green: #d0ee8c;
+    --secondary-green: #728e2e;
+    --transparent-primary-green: #d0ee8c80;
+}
+
+/* Body/HTML Base Styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 400 16px 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/* BASE STYLES */
+/* Background/Text Colors and Hover Effects */
+.bg-primary-orange {
+    background: var(--primary-orange);
+}
+
+.bg-secondary-orange {
+    background: var(--secondary-orange);
+}
+
+.bg-primary-gray {
+    background: var(--primary-gray);
+}
+
+.bg-secondary-gray {
+    background: var(--secondary-gray);
+}
+
+.bg-primary-white {
+    background: var(--primary-white);
+}
+
+.bg-primary-black {
+    background: var(--primary-black);
+}
+
+.bg-transparent-primary-black {
+    background: var(--transparent-primary-black);
+}
+
+.bg-primary-green {
+    background: var(--primary-green);
+}
+
+.bg-transparent-primary-green {
+    background: var(--transparent-primary-green);
+}
+
+.bg-primary-blue {
+    background: var(--primary-blue);
+}
+
+.bg-secondary-blue {
+    background: var(--secondary-blue);
+}
+
+.bg-primary-blue-hover:hover {
+    background: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+.bg-secondary-blue-hover:hover {
+    background: var(--secondary-blue);
+    color: var(--primary-white);
+}
+
+.bg-tertiary-blue-hover:hover {
+    background: var(--tertiary-blue);
+    color: var(--primary-white);
+}
+
+/* Text Colors and Hover Effects */
+.text-header {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-bs-primary-hover:hover {
+    color: var(--bs-primary) !important;
+    text-decoration: underline !important;
+}
+
+.text-bs-light-hover:hover {
+    color: var(--bs-light) !important;
+    text-decoration: underline !important;
+}
+
+.text-primary-orange {
+    color: var(--primary-orange);
+}
+
+.text-secondary-orange {
+    color: var(--secondary-orange);
+}
+
+.text-primary-white {
+    color: var(--primary-white);
+}
+
+.text-primary-black {
+    color: var(--primary-black);
+}
+
+.text-secondary-blue {
+    color: var(--secondary-blue);
+}
+
+.text-primary-green {
+    color: var(--primary-green);
+}
+
+.text-secondary-green {
+    color: var(--secondary-green);
+}
+
+@media (min-width: 992px) {
+    .text-secondary-blue-lg-hover:hover {
+        background: var(--primary-white) !important;
+        color: var(--secondary-blue) !important;
+    }
+}
+
+/* Horizontal Rule Styles */
+.hr-blue {
+    width: 100px;
+    border: 2px solid var(--secondary-blue);
+    opacity: 0.6;
+    margin: 0.5rem 0;
+}
+
+.hr-blue-center {
+    width: 100px;
+    border: 2px solid var(--secondary-blue);
+    opacity: 0.6;
+    margin: 0.5rem auto;
+}
+
+.hr-white {
+    width: 100px;
+    border: 2px solid var(--bs-light);
+    margin: 0.5rem 0;
+    opacity: 0.8;
+}
+
+.hr-bs-dark {
+    width: 150px;
+    border: 2px solid var(--bs-dark);
+    margin: 0.5rem 0;
+    opacity: 0.6;
+}
+
+/* Border Colors */
+.border-green {
+    border-color: var(--secondary-green) !important;
+}
+
+/* Font Sizes */
+.fs-6 {
+    font-size: 1.1rem !important;
+}
+
+.fs-7 {
+    font-size: 0.9rem;
+}
+
+.fs-8 {
+    font-size: 0.8rem;
+}
+
+/* Utilities */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.list-none {
+    list-style: none;
+}
+
+/* Nav Section Styles */
+.logo img {
+    width: 50px;
+}
+
+.nav-title {
+    font-family: "Raleway", sans-serif;
+}
+
+.menus {
+    position: absolute;
+    width: 100%;
+    inset: 5em auto auto 0;
+    transform: translateX(-1000px);
+    transition: transform 1s ease;
+}
+
+.menus ul {
+    min-width: 150px;
+}
+
+@media (min-width: 992px) {
+    .menus {
+        position: relative;
+        transform: none;
+        background: none;
+        width: auto;
+        transition: none;
+        inset: auto;
+    }
+
+    .nav-title {
+        border: none !important;
+    }
+
+    .nav-modal {
+        position: absolute;
+        inset: 4em auto auto auto;
+    }
+
+    .nav-modal li a {
+        border: none !important;
+    }
+}
+
+@media (min-width: 1057px) {
+    .nav-modal {
+        position: absolute;
+        inset: 3.4em auto auto auto;
+    }
+}
+
+
+
+.hero::before {
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.hero h2 {
+    z-index: 2;
+}
+
+.hero p {
+    z-index: 2;
+
+}
+.hero img {
+
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+
+/* About Section Styles */
+.about .about-image img {
+    max-width: 300px;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 2em;
+}
+
+/* Aim Section Styles */
+.aims i {
+    font-size: 3rem;
+}
+
+.aims .card-text {
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .aims .card {
+        min-height: 310px;
+    }
+}
+
+@media (min-width: 992px) {
+    .aims .card {
+        min-height: 330px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .aims .card {
+        min-height: 290px;
+    }
+}
+
+/* Management Section Styles */
+.management .card .card-img-top {
+    max-width: 150px;
+}
+
+@media (min-width: 768px) {
+    .management .card {
+        min-height: 390px;
+    }
+}
+
+/* Breadcrumb Styles */
+.breadcrumb li::after {
+    content: "/";
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #999;
+}
+
+.breadcrumb li:last-child::after {
+    content: none; /* Remove arrow after the last item */
+}
+
+/* Photo Gallery Styles */
+.photos .card {
+    max-width: 700px;
+}
+
+.photo-item a {
+    overflow: hidden;
+}
+
+.photo-item a img {
+    transition: transform ease 1.5s;
+}
+
+.photo-item a:hover img {
+    transform: scale(1.5);
+}
+
+.photo-item a p {
+    inset: auto auto 0 0;
+    background: #0008;
+    display: none;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+.modal.lightbox {
+    overflow-y: hidden;
+    padding-right: 0 !important;
+}
+
+.modal-dialog {
+    max-width: 950px;
+}
+
+/* Footer Styles */
+footer p {
+    line-height: 2em;
+}
+
+footer .email-icon, footer .address-icon, footer .register-icon {
+    min-width: 30px;
+}
+
+/* Scroll to top Button Styles */
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+    background-color: var(--primary-black);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding: 1.5rem 1rem;
+    opacity: 0.3;
+    z-index: 99;
+}
+
+.scroll-to-top-button:hover {
+    opacity: 0.8;
+}
+
+
+/* Javascript Styles */
+.flex {
+    display: flex !important;
+}
+
+.slide-right {
+    transform: translate(0);
+}
+
+/*Preloader*/
+/* Preloader styles */
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Preloader background color */
+    z-index: 9999; /* Ensures the preloader is above other content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader-gif {
+    width: 250px; /* Set width as per your requirement */
+    height: auto; /* Maintains aspect ratio */
+}
